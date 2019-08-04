@@ -10,7 +10,7 @@ public class InsertionSort {
      * 插入排序
      * @param arr
      */
-    public static void sort(int[] arr) {
+    public void sort(int[] arr) {
         int length = arr.length;
         for (int i = 1; i < length; i++) {
             int value = arr[i];
