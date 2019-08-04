@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3047e484-5a27-4642-9c87-8c7dba8f3e13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/sort/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../数据结构和算法/数据结构和算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../数据结构和算法/数据结构和算法.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,72 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/SelectSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/ShellsSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="395" column="58" selection-start-line="395" selection-start-column="47" selection-end-line="395" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="753" column="6" lean-forward="true" selection-start-line="753" selection-start-column="6" selection-end-line="753" selection-end-column="6" />
-              <folding>
-                <element signature="e#32010#32011#0" expanded="true" />
-                <element signature="e#32095#32096#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-26">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -118,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/ShellsSort.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -159,6 +99,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yangzanjie" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DSAStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yangzanjie" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -170,7 +118,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564905698739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564915323221" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,26 +132,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortTest">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yangzanjie.sort.BubbleSort" />
       <module name="DSAStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yangzanjie.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircularQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.Queue.CircularQueue" />
-      <module name="DSAStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yangzanjie.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,6 +172,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.sort.MergeSort" />
+      <module name="DSAStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yangzanjie.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yangzanjie.sort.SortTest" />
       <module name="DSAStudy" />
@@ -251,19 +199,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CircularQueue" />
       <item itemvalue="Application.DemoTest" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.SortTest" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.SortTest" />
         <item itemvalue="Application.DemoTest" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.CircularQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -277,12 +225,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564288221415</updated>
-      <workItem from="1564288224640" duration="29359000" />
+      <workItem from="1564288224640" duration="32465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29359000" />
+    <option name="totallyTimeSpent" value="32465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -303,7 +251,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39156628" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25180724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,7 +273,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49784482" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="6" sideWeight="0.5021552" side_tool="true" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="6" sideWeight="0.5021552" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32891566" />
@@ -334,7 +282,7 @@
       <window_info anchor="bottom" id="Messages" order="5" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.44096386" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.39156628" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -501,15 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="180">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -522,11 +463,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+        <state relative-caret-position="461">
+          <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
