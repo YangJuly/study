@@ -1,4 +1,4 @@
-package com.yangzanjie.Queue;
+package com.yangzanjie.queue;
 
 /**
  * @author : yangzanjie

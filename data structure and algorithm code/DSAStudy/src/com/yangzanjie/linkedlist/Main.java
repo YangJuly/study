@@ -1,4 +1,4 @@
-package com.yangzanjie.LinkedList;
+package com.yangzanjie.linkedlist;
 
 public class Main {
 

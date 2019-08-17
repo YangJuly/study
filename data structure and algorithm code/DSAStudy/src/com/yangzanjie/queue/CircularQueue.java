@@ -1,6 +1,4 @@
-package com.yangzanjie.Queue;
-
-import java.util.ArrayList;
+package com.yangzanjie.queue;
 
 /**
  * @author : yangzanjie

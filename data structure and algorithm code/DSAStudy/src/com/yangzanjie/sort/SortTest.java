@@ -80,7 +80,7 @@ public class SortTest {
             InvocationTargetException,
             IllegalAccessException,
             InstantiationException {
-        int[] arr = generate(0, 10000, 100000);
+        int[] arr = generate(0, 10000, 100);
 //        printArr(arr);
         System.out.println(checkArrAsc(arr));
         System.out.println("\n");
@@ -107,6 +107,18 @@ public class SortTest {
         sort(ShellsSort.class, arrShells);
 //        printArr(arrShells);
         System.out.println(checkArrAsc(arrShells));
+        System.out.println();
+
+        int[] arrMerge =  arr.clone();
+        sort(MergeSort.class, arrMerge);
+//        printArr(arrShells);
+        System.out.println(checkArrAsc(arrMerge));
+        System.out.println();
+
+        int[] arrQuick =  arr.clone();
+        sort(QuickSort.class, arrQuick);
+//        printArr(arrShells);
+        System.out.println(checkArrAsc(arrQuick));
         System.out.println();
     }
 }

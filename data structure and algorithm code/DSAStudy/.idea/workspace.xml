@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3047e484-5a27-4642-9c87-8c7dba8f3e13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/hashtable/LRUBaedOnHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/search/BinarySeach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/search/SerchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/sort/FindKMaxInArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/sort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/sort/SortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/sort/SortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/LinkedList/LRUBaseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/LRUBaseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/LinkedList/PalindromeStringBaseSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/PalindromeStringBaseSinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/LinkedList/SNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/SNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/LinkedList/SinglyLinkedListString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/SinglyLinkedListString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/Queue/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/queue/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/Queue/QueueBasedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/queue/QueueBasedLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../数据结构和算法/数据结构和算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../数据结构和算法/数据结构和算法.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +29,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/MergeSort.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/search/BinarySeach.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="544">
+              <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/search/SerchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/linkedlist/LRUBaseLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/hashtable/LRUBaedOnHashTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7693">
+              <caret line="628" column="26" lean-forward="true" selection-start-line="628" selection-start-column="26" selection-end-line="628" selection-end-column="26" />
+              <folding>
+                <element signature="e#19103#19104#0" expanded="true" />
+                <element signature="e#19161#19162#0" expanded="true" />
+                <element signature="e#19327#19328#0" expanded="true" />
+                <element signature="e#19410#19411#0" expanded="true" />
+                <element signature="e#24331#24332#0" expanded="true" />
+                <element signature="e#24396#24397#0" expanded="true" />
+                <element signature="e#66928#66929#0" expanded="true" />
+                <element signature="e#66985#66986#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +116,14 @@
         <option value="$PROJECT_DIR$/src/com/yangzanjie/DemoTest.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/ShellsSort.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/FindKMaxInArr.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/search/BinarySeach.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/search/SerchTest.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/LRUBaseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/hashtable/LRUBaedOnHashTable.java" />
       </list>
     </option>
   </component>
@@ -74,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,6 +172,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yangzanjie" type="462c0819:PsiDirectoryNode" />
+              <item name="hashtable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSAStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yangzanjie" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSAStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yangzanjie" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSAStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yangzanjie" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -112,13 +203,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564915323221" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565525494655" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,35 +222,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.sort.BubbleSort" />
-      <module name="DSAStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yangzanjie.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.DemoTest" />
-      <module name="DSAStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yangzanjie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.sort.InsertionSort" />
+  <component name="RunManager" selected="Application.SerchTest">
+    <configuration name="FindKMaxInArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.sort.FindKMaxInArr" />
       <module name="DSAStudy" />
       <extension name="coverage">
         <pattern>
@@ -185,6 +249,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.sort.QuickSort" />
+      <module name="DSAStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yangzanjie.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.search.SerchTest" />
+      <module name="DSAStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yangzanjie.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yangzanjie.sort.SortTest" />
       <module name="DSAStudy" />
@@ -199,19 +289,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DemoTest" />
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.SortTest" />
       <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.FindKMaxInArr" />
+      <item itemvalue="Application.SerchTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.SerchTest" />
+        <item itemvalue="Application.FindKMaxInArr" />
         <item itemvalue="Application.SortTest" />
-        <item itemvalue="Application.DemoTest" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -225,77 +315,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564288221415</updated>
-      <workItem from="1564288224640" duration="32465000" />
+      <workItem from="1564288224640" duration="32713000" />
+      <workItem from="1565178835662" duration="11285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32465000" />
+    <option name="totallyTimeSpent" value="43998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49784482" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" sideWeight="0.5021552" side_tool="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49638554" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" sideWeight="0.5036145" side_tool="true" weight="0.2532189" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25180724" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25180724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49784482" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="6" sideWeight="0.5021552" side_tool="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32891566" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.39156628" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49638554" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" sideWeight="0.5036145" side_tool="true" visible="true" weight="0.2532189" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25180724" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,21 +416,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/LinkedList/LRUBaseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/LinkedList/PalindromeStringBaseSinglyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/linkedlist/PalindromeStringBaseSinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/LinkedList/SinglyLinkedListString.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/linkedlist/SinglyLinkedListString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -351,21 +435,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/LinkedList/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/linkedlist/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/LinkedList/SNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/linkedlist/SNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/Queue/QueueBasedLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/queue/QueueBasedLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="116" column="47" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
@@ -383,7 +467,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/Queue/CircularQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/queue/CircularQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
@@ -433,10 +517,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/ShellsSort.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="304">
+          <caret line="395" column="58" selection-start-line="395" selection-start-column="47" selection-end-line="395" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="76" column="72" selection-start-line="76" selection-start-column="72" selection-end-line="76" selection-end-column="72" />
+          <folding>
+            <element signature="method#sort#0;class#MergeSort#0" />
+            <element signature="method#mergeSort#0;class#MergeSort#0" />
+            <element signature="method#merge#0;class#MergeSort#0" />
+            <element signature="method#mergeWithGurad#0;class#MergeSort#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/SuppressWarnings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="63" column="39" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/FindKMaxInArr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="method#partition#0;class#FindKMaxInArr#0" />
+            <element signature="method#swap#0;class#FindKMaxInArr#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -447,41 +576,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/InsertionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/ShellsSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="75">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/System.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="395" column="58" selection-start-line="395" selection-start-column="47" selection-end-line="395" selection-end-column="58" />
+        <state relative-caret-position="270">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#generate#0;class#SortTest#0" />
+            <element signature="method#sort#0;class#SortTest#0" />
+            <element signature="method#printArr#0;class#SortTest#0" />
+            <element signature="method#checkArrAsc#0;class#SortTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/search/BinarySeach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="544">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/sort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/search/SerchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="240">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7693">
+          <caret line="628" column="26" lean-forward="true" selection-start-line="628" selection-start-column="26" selection-end-line="628" selection-end-column="26" />
+          <folding>
+            <element signature="e#19103#19104#0" expanded="true" />
+            <element signature="e#19161#19162#0" expanded="true" />
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="e#24331#24332#0" expanded="true" />
+            <element signature="e#24396#24397#0" expanded="true" />
+            <element signature="e#66928#66929#0" expanded="true" />
+            <element signature="e#66985#66986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/linkedlist/LRUBaseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/hashtable/LRUBaedOnHashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
