@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3047e484-5a27-4642-9c87-8c7dba8f3e13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/hashtable/LRUBaedOnHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/search/BinarySeach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/search/SerchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/sort/FindKMaxInArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/sort/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/sort/SortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/sort/SortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/LinkedList/LRUBaseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/LRUBaseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/LinkedList/PalindromeStringBaseSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/PalindromeStringBaseSinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/LinkedList/SNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/SNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/LinkedList/SinglyLinkedListString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/SinglyLinkedListString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/Queue/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/queue/CircularQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/Queue/QueueBasedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/queue/QueueBasedLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/sort/SortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../数据结构和算法/数据结构和算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../数据结构和算法/数据结构和算法.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -208,7 +192,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565525494655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566026385147" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
