@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3047e484-5a27-4642-9c87-8c7dba8f3e13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../t/中国北京比意大利快6小时.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../t/中国北京比意大利快6小时.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../数据结构和算法/数据结构和算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../数据结构和算法/数据结构和算法.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -192,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566026385147" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566026407187" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
