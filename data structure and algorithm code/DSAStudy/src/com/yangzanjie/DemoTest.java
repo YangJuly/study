@@ -10,6 +10,8 @@ import java.util.ArrayList;
 public class DemoTest {
 
     public static void main(String[] args) {
+        String str = "123456";
         System.out.println(3/2);
+        System.out.println(str.substring(0,  2));
     }
 }
