@@ -11,7 +11,9 @@ public class DemoTest {
 
     public static void main(String[] args) {
         String str = "123456";
-        System.out.println(3/2);
-        System.out.println(str.substring(0,  2));
+        System.out.println(str.substring(0,0));
+//        System.out.println(str.trim());
+        System.out.println((long)Integer.MIN_VALUE);
+        System.out.println((long)Integer.MAX_VALUE);
     }
 }

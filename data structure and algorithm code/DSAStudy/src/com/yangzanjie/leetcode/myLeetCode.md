@@ -56,3 +56,15 @@
 
 #### [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)-E
 
+------
+
+
+
+## 7.字符串
+
+#### [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)-E
+
+#### [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)-M
+
+#### [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)-M
+
