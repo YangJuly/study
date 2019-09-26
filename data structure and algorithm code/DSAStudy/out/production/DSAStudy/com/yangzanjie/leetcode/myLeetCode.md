@@ -68,3 +68,19 @@
 
 #### [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)-M
 
+------
+
+
+
+## 8.树、堆
+
+#### [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)-E
+
+#### [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)-E
+
+#### [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)-M
+
+#### [112. 路径总和](https://leetcode-cn.com/problems/path-sum/)-E
+
+
+

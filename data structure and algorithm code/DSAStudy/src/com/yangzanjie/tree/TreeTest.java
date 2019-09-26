@@ -20,19 +20,19 @@ public class TreeTest {
         node5.setLeft(node4);
         node5.setRight(node8);
         node4.setLeft(node2);
-        node4.setRight(node6);
         node2.setLeft(node1);
         node2.setRight(node3);
         node8.setLeft(node7);
+        node7.setLeft(node6);
         node8.setRight(node9);
 
         LBTNode node = node5;
 
 //        TraversalTree.preOrder(node);
-//        TraversalTree.inOrder(node);
+        TraversalTree.inOrder(node);
 //        TraversalTree.postOrder(node);
 //        TraversalTree.layerOrder(node);
-        int height = TraversalTree.getMaxHeightBasedRecursive(node);
-        System.out.println(height);
+//        int height = TraversalTree.getMaxHeightBasedRecursive(node);
+//        System.out.println(height);
     }
 }

@@ -32,8 +32,8 @@ public class QuickSort {
         int p = arr[end];
         int i = start;
         for (int j = start; j < end; j++) {
-            //如果值小于p，出发swap
-            if (arr[j] < p) {
+            //如果值小于等于p，出发swap
+            if (arr[j] <= p) {
               swap(arr, j, i);
               i++;
             }
