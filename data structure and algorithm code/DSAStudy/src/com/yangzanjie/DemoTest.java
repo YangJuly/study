@@ -10,10 +10,18 @@ import java.util.ArrayList;
 public class DemoTest {
 
     public static void main(String[] args) {
-        String str = "123456";
-        System.out.println(str.substring(0,0));
+//        String str = "123456";
+//        System.out.println(str.substring(0,0));
 //        System.out.println(str.trim());
-        System.out.println((long)Integer.MIN_VALUE);
-        System.out.println((long)Integer.MAX_VALUE);
+//        System.out.println((long)Integer.MIN_VALUE);
+//        System.out.println((long)Integer.MAX_VALUE);
+//        for (int i = 0; i < 5; i++) {
+//            if (i == 3) continue;
+//            System.out.println(i);
+//        }
+//        int[] seq = {2,9,3,6,5,1,7};
+////        System.out.println(seq.length);
+        String str = "";
+        System.out.println(str.isEmpty());
     }
 }

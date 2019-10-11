@@ -82,5 +82,27 @@
 
 #### [112. 路径总和](https://leetcode-cn.com/problems/path-sum/)-E
 
+------
+
+
+
+
+
+## 9.图
+
+#### [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)-M
+
+#### [36. 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)-M
+
+------
+
+
+
+
+
+## 10.回溯、分治、动态规划
+
+#### [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)-D
+
 
 

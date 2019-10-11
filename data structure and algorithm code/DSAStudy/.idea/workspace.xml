@@ -2,25 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3047e484-5a27-4642-9c87-8c7dba8f3e13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/graph/AStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/graph/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/graph/TestDrawLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/heap/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/heap/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/heap/MergeKOrderedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/heap/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/heap/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/linkedlist/practiceone/DynamicNumsTopK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/tree/practiceone/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/backtracking/BagProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/backtracking/EightQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/backtracking/LevenshteinDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/backtracking/LongestIncreaseSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/diversion/CalReverseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/dynamic/BagPronblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/dynamic/LevenshteinDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/dynamic/LongestCommonSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/dynamic/LongestIncreaseSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/graph/TopoSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/NumIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ValidSudoku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/StringToIntegerAtoi$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/StringToIntegerAtoi$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/DemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/DemoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/graph/AStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/graph/AStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/graph/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/graph/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/graph/RandomMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/graph/RandomMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ClimbingStairs$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ClimbingStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/DesignCircularDeque$MyCircularDeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/DesignCircularDeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/EvaluateReversePolishNotation$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/EvaluateReversePolishNotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/FirstMissingPositive$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/FirstMissingPositive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/FirstMissingPositive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/FirstMissingPositive29030163.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/InvertBinaryTree$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/InvertBinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/InvertBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/LinkedListCycle$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/LinkedListCycle$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/LinkedListCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/LongestValidParentheses$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/LongestValidParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/LongestValidParentheses.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/MajorityElement$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/MajorityElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/MajorityElement.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/MajorityElement29017376.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/MaximumDepthOfBinaryTree$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/MaximumDepthOfBinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/MaximumDepthOfBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/MergeKSortedLists$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/MergeKSortedLists$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/MergeKSortedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/PathSum$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/PathSum$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/PathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ReverseString$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ReverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ReverseWordsInAString$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ReverseWordsInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/SlidingWindowMaximum$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/SlidingWindowMaximum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/Sqrtx$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/Sqrtx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/StringToIntegerAtoi$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/StringToIntegerAtoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ThreeSum$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ThreeSum.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ValidParentheses$Solution$Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ValidParentheses$Solution$Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ValidParentheses$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ValidParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ValidateBinarySearchTree$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ValidateBinarySearchTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/ValidateBinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/editor/cn/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/myLeetCode.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/leetcode/myLeetCode.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/tree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAStudy/com/yangzanjie/tree/TreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ClimbingStairs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/DesignCircularDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/EvaluateReversePolishNotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/FirstMissingPositive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/FirstMissingPositive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/FirstMissingPositive29030163.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/InvertBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/LinkedListCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/LongestValidParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/LongestValidParentheses.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/MajorityElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/MajorityElement.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/MajorityElement29017376.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/MaximumDepthOfBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/MergeKSortedLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/PathSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ReverseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ReverseWordsInAString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/SlidingWindowMaximum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/Sqrtx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/StringToIntegerAtoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ThreeSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ThreeSum.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ValidParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ValidateBinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/myLeetCode.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/leetcode/myLeetCode.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangzanjie/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangzanjie/tree/TreeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,39 +125,37 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DSAStudy" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/graph/TestDrawLine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/graph/AStart.java">
+        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/RegularExpressionMatching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="71" column="4" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6189#6190#0" expanded="true" />
-                <element signature="e#6679#6680#0" expanded="true" />
-                <element signature="e#6867#6868#0" expanded="true" />
-                <element signature="e#7286#7287#0" expanded="true" />
-                <element signature="e#7428#7429#0" expanded="true" />
+                <element signature="e#1190#2756#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+        <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/DemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="337" column="25" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
+            <state relative-caret-position="360">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12">
+              <caret line="1910" column="6" selection-start-line="1910" selection-start-column="6" selection-end-line="1910" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -90,6 +170,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>200</find>
+    </findStrings>
     <replaceStrings>
       <replace>tail</replace>
     </replaceStrings>
@@ -103,21 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/queue/QueueTest.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/queue/CircularQueuePractice.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/queue/CircularQueuePractice2.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/recursive/ReadME.md" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/recursive/FibonacciSequence.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/recursive/Factorial.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ValidParentheses.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/LongestValidParentheses.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/EvaluateReversePolishNotation.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/DesignCircularDeque.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/SlidingWindowMaximum.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ClimbingStairs.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/review1/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/review1/InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/review1/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/review1/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/review1/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/sort/review1/FindKMax.java" />
@@ -131,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/com/yangzanjie/string/BFMatch.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ReverseWordsInAString.java" />
-        <option value="$PROJECT_DIR$/src/com/yangzanjie/DemoTest.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/StringToIntegerAtoi.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/tree/TreeTest.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/heap/SmallHeap.java" />
@@ -154,6 +221,22 @@
         <option value="$PROJECT_DIR$/src/com/yangzanjie/graph/DrawSee.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/graph/TestDrawLine.java" />
         <option value="$PROJECT_DIR$/src/com/yangzanjie/graph/AStart.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/graph/Kahn.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/graph/TopoSort.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/NumIslands.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ValidSudoku.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/backtracking/EightQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/backtracking/EightQueens.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/diversion/CalReverseOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/dynamic/BagPronblem.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/backtracking/BagProblem.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/backtracking/LevenshteinDistance.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/dynamic/LevenshteinDistance.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/backtracking/LongestIncreaseSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/dynamic/LongestIncreaseSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/dynamic/LongestCommonSubstring.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/DemoTest.java" />
+        <option value="$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/RegularExpressionMatching.java" />
       </list>
     </option>
   </component>
@@ -176,6 +259,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,24 +292,57 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yangzanjie" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSAStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yangzanjie" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSAStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yangzanjie" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSAStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yangzanjie" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="editor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSAStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSAStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yangzanjie" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="editor" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569499806780" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570802930273" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -238,13 +356,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestDrawLine (1)">
-    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.graph.AppMain" />
+  <component name="RunManager" selected="Application.RegularExpressionMatching">
+    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.DemoTest" />
       <module name="DSAStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yangzanjie.graph.*" />
+          <option name="PATTERN" value="com.yangzanjie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,12 +370,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.graph.Dijkstra" />
+    <configuration name="LevenshteinDistance (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.dynamic.LevenshteinDistance" />
       <module name="DSAStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yangzanjie.graph.*" />
+          <option name="PATTERN" value="com.yangzanjie.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,8 +383,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.leetcode.editor.cn.PathSum" />
+    <configuration name="LongestIncreaseSubsequence (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.dynamic.LongestIncreaseSubsequence" />
+      <module name="DSAStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yangzanjie.dynamic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestIncreaseSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.backtracking.LongestIncreaseSubsequence" />
+      <module name="DSAStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yangzanjie.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegularExpressionMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangzanjie.leetcode.editor.cn.RegularExpressionMatching" />
       <module name="DSAStudy" />
       <extension name="coverage">
         <pattern>
@@ -278,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDrawLine (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDrawLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yangzanjie.graph.TestDrawLine" />
       <module name="DSAStudy" />
       <extension name="coverage">
@@ -291,27 +435,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDrawLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestDrawLine" />
-      <module name="DSAStudy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.PathSum" />
-      <item itemvalue="Application.Dijkstra" />
-      <item itemvalue="Application.AppMain" />
-      <item itemvalue="Application.TestDrawLine" />
-      <item itemvalue="Application.TestDrawLine (1)" />
+      <item itemvalue="Application.DemoTest" />
+      <item itemvalue="Application.LevenshteinDistance (1)" />
+      <item itemvalue="Application.LongestIncreaseSubsequence" />
+      <item itemvalue="Application.LongestIncreaseSubsequence (1)" />
+      <item itemvalue="Application.RegularExpressionMatching" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestDrawLine (1)" />
-        <item itemvalue="Application.TestDrawLine" />
-        <item itemvalue="Application.AppMain" />
-        <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.PathSum" />
+        <item itemvalue="Application.RegularExpressionMatching" />
+        <item itemvalue="Application.DemoTest" />
+        <item itemvalue="Application.LongestIncreaseSubsequence (1)" />
+        <item itemvalue="Application.LongestIncreaseSubsequence" />
+        <item itemvalue="Application.LevenshteinDistance (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -333,28 +470,36 @@
       <workItem from="1567850525136" duration="61000" />
       <workItem from="1567850600346" duration="31514000" />
       <workItem from="1568355707193" duration="45274000" />
-      <workItem from="1568650018387" duration="70223000" />
+      <workItem from="1568650018387" duration="77229000" />
+      <workItem from="1569639848664" duration="273000" />
+      <workItem from="1569640180107" duration="168000" />
+      <workItem from="1569640363867" duration="19000" />
+      <workItem from="1569640397147" duration="7720000" />
+      <workItem from="1569652525942" duration="2000" />
+      <workItem from="1570674757475" duration="108000" />
+      <workItem from="1570674882452" duration="3622000" />
+      <workItem from="1570689244736" duration="24371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208490000" />
+    <option name="totallyTimeSpent" value="251779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6275605" weight="0.18669528" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5554217" visible="true" weight="0.2081545" />
       <window_info id="Structure" order="1" sideWeight="0.37243947" side_tool="true" weight="0.26108727" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.44457832" side_tool="true" visible="true" weight="0.2081545" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19036144" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41812867" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25421688" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2614458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -365,15 +510,15 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49879518" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.49759036" weight="0.3297568" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" weight="0.3297568" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="leetcode" order="9" side_tool="true" weight="0.22818312" />
+      <window_info anchor="right" id="leetcode" order="9" sideWeight="0.50240964" side_tool="true" weight="0.3297568" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6275605" weight="0.18669528" />
@@ -439,18 +584,6 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/StringToIntegerAtoi.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/StringToIntegerAtoi.java</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/yangzanjie/graph/AStart.java</url>
           <line>60</line>
           <properties />
@@ -474,19 +607,76 @@
           <properties />
           <option name="timeStamp" value="91" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/NumIslands.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/yangzanjie/backtracking/EightQueens.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/RegularExpressionMatching.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/RegularExpressionMatching.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/RegularExpressionMatching.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/RegularExpressionMatching.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="currentNode.val" language="JAVA" />
-        <watch expression="current.value" language="JAVA" />
-        <watch expression="openSet" language="JAVA" />
-        <watch expression="closeSet" language="JAVA" />
-      </configuration>
-    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>p.length();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>grid[0].length;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>grid.length;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>grid[1][4];</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>grid[0][4];</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>test.arrayList.size</expression-string>
         <language-id>JAVA</language-id>
@@ -517,136 +707,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="2866" column="18" selection-start-line="2866" selection-start-column="18" selection-end-line="2866" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ReverseWordsInAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/StringToIntegerAtoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/DemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/tree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/tree/LBTNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/tree/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/tree/TraversalTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="153" column="16" selection-start-line="153" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/heap/MaxHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/queue/CircularQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/heap/MinHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="973">
-          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/heap/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="method#enqueue#0;class#PriorityQueue#0" />
-            <element signature="method#dequeue#0;class#PriorityQueue#0" />
-            <element signature="method#heapify#0;class#PriorityQueue#0" />
-            <element signature="method#swap#0;class#PriorityQueue#0" />
-            <element signature="method#main#0;class#PriorityQueue#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/heap/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -697,13 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/MergeKSortedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="45" column="83" selection-start-line="45" selection-start-column="83" selection-end-line="45" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/MergeKSortedLists.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -786,16 +840,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/InvertBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/InvertBinaryTree.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/javafx-src.zip!/javafx/util/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -803,16 +848,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/MaximumDepthOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/MaximumDepthOfBinaryTree.java" />
     <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/tree/practiceone/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -836,26 +872,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ValidateBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="73" selection-start-line="73" selection-end-line="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/PathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="71" column="5" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ValidateBinarySearchTree.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/PathSum.java" />
     <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/recursive/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -874,13 +892,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/graph/AppMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/graph/AppMain.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -902,29 +914,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Graph#0;class#Graph#0" />
-            <element signature="method#addEdge#0;class#Graph#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="337" column="25" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/graph/TestDrawLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -939,6 +932,163 @@
             <element signature="e#6867#6868#0" expanded="true" />
             <element signature="e#7286#7287#0" expanded="true" />
             <element signature="e#7428#7429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/graph/TestDrawLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="671" column="13" selection-start-line="671" selection-start-column="13" selection-end-line="671" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/graph/TopoSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/translation.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret column="38647" selection-start-column="38644" selection-end-column="38647" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addEdge#0;class#Graph#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/ValidSudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/NumIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
+            <element signature="method#numIslands#0;class#NumIslands#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/backtracking/EightQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/diversion/CalReverseOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="method#count#0;class#CalReverseOrder#0" />
+            <element signature="method#mergeSorting#0;class#CalReverseOrder#0" />
+            <element signature="method#merge#0;class#CalReverseOrder#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/dynamic/BagPronblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/backtracking/BagProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/backtracking/LevenshteinDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/backtracking/LongestIncreaseSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="97" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="28" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/dynamic/LongestIncreaseSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/dynamic/LevenshteinDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="49" column="106" selection-start-line="49" selection-start-column="106" selection-end-line="49" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/dynamic/LongestCommonSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="1910" column="6" selection-start-line="1910" selection-start-column="6" selection-end-line="1910" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/DemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangzanjie/leetcode/editor/cn/RegularExpressionMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="71" column="4" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
+          <folding>
+            <element signature="e#1190#2756#0" />
           </folding>
         </state>
       </provider>
