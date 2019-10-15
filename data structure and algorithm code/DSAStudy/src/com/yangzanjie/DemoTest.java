@@ -22,6 +22,6 @@ public class DemoTest {
 //        int[] seq = {2,9,3,6,5,1,7};
 ////        System.out.println(seq.length);
         String str = "";
-        System.out.println(str.isEmpty());
+        System.out.println(str.length());
     }
 }

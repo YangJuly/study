@@ -104,5 +104,19 @@
 
 #### [10. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)-D
 
+#### [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)-M
+
+#### [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)-M（备注：此题目前只搞了动态规划-自下而上版本）
+
+#### [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)-E
+
+#### [152. 乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/)-M
+
+#### [120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/)-M
+
+
+
+
+
 
 
