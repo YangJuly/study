@@ -13,31 +13,45 @@ import java.util.Set;
  */
 public class ValidSudoku {
     public boolean isValidSudoku(char[][] board) {
-        HashMap<Integer, Integer> row[] = new HashMap[9];
-        HashMap<Integer, Integer> column[] = new HashMap[9];
-        HashMap<Integer, Integer> box[] = new HashMap[9];
+        int nr = board.length;
+        int nc = board[0].length;
+        for (int i = 0; i < nr; i++) {
+            for (int j = 0; j < nc; j++) {
+                if (board[i][j] != '.') {
+                    if (!isValid(board, i, j)) return false;
+                }
+            }
+        }
+        return true;
+    }
 
-        for (int i = 0; i < 9; i++) {
-            row[i] = new HashMap<>();
-            column[i] = new HashMap<>();
-            box[i] = new HashMap<>();
+    private boolean isValid(char[][] board, int r, int c) {
+        int nr = board.length;
+        int nc = board[0].length;
+
+        char ch = board[r][c];
+        //验证行
+        for (int j = 0; j < nc; j++) {
+            if (j != c && board[r][j] == ch) {
+                return false;
+            }
+        }
+        //验证列
+        for (int i = 0; i < nr; i++) {
+            if (i != r && board[i][c] == ch) {
+                return false;
+            }
         }
 
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
-                char c = board[i][j];
-                if (c != '.') {
-                    int num = (int) c;
-
-                    int boxIndex = (i / 3) * 3 + j / 3;
-
-                    row[i].put(num, row[i].getOrDefault(num, 0) + 1);
-                    column[j].put(num, column[j].getOrDefault(num, 0) + 1);
-                    box[boxIndex].put(num, box[boxIndex].getOrDefault(num, 0) + 1);
-
-                    if (row[i].get(num) > 1 || column[j].get(num) > 1 || box[boxIndex].get(num) > 1) {
-                        return false;
-                    }
+        //验证宫
+        int pr = (r / 3);
+        int pc = (c / 3);
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                int indexI = i + pr * 3;
+                int indexJ = j + pc * 3;
+                if (indexI != r && indexJ != c && board[indexI][indexJ] == ch) {
+                    return false;
                 }
             }
         }

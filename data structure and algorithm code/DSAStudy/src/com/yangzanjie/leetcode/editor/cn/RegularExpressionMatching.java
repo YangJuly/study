@@ -61,48 +61,25 @@ package com.yangzanjie.leetcode.editor.cn;
 public class RegularExpressionMatching{
     public static void main(String[] args) {
         Solution solution = new RegularExpressionMatching().new Solution();
-        String s = "";
-        String p = "c*c*";
+        String s = "aa";
+        String p = "a**";
         System.out.println(solution.isMatch(s,p));
     }
     
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public boolean isMatch(String s, String p) {
-        if (p.isEmpty()) {
-            return s.isEmpty();
-        }
+    public boolean isMatch(String text, String pattern) {
+        if (pattern.isEmpty()) return text.isEmpty();
+        boolean first_match = (!text.isEmpty() &&
+                (pattern.charAt(0) == text.charAt(0) || pattern.charAt(0) == '.'));
 
-        boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
-
-        dp[0][0] = true;
-        for (int i = 0; i < p.length(); i++) {   //填写第0行
-            if (p.charAt(i) == '*') {
-                if (p.charAt(i-1) == '*') {
-                    dp[0][i+1] = dp[0][i];
-                } else {
-                    dp[0][i+1] = dp[0][i-1];
-                }
-            }
+        if (pattern.length() >= 2 && pattern.charAt(1) == '*'){
+            return (isMatch(text, pattern.substring(2)) ||
+                    (first_match && isMatch(text.substring(1), pattern)));
+        } else {
+            return first_match && isMatch(text.substring(1), pattern.substring(1));
         }
-
-        for (int i = 0; i < s.length(); i++) { //逐行填写
-            for (int j = 0; j < p.length(); j++) {
-                if (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.') {
-                    dp[i+1][j+1] = dp[i][j];
-                }
-                if (p.charAt(j) == '*') {
-                    if (p.charAt(j-1) != s.charAt(i)) {
-                        dp[i+1][j+1] = dp[i+1][j-1];
-                    }
-                    if (p.charAt(j-1) == s.charAt(i) || p.charAt(j-1) == '.'){
-                        dp[i+1][j+1] = dp[i][j+1] || dp[i+1][j] || dp[i+1][j-1];
-                    }
-                }
-            }
-        }
-        return dp[s.length()][p.length()];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

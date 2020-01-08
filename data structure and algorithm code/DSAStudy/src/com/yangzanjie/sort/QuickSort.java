@@ -1,5 +1,7 @@
 package com.yangzanjie.sort;
 
+import java.util.Random;
+
 /**
  * @author : yangzanjie
  * create at:  2019-08-10  14:15
@@ -17,7 +19,7 @@ public class QuickSort {
         if (start >= end) return;
         int par = partition(arr, start, end);
         quickSort(arr, start, par - 1);
-        quickSort(arr, par, end);
+        quickSort(arr, par + 1, end);
         return;
     }
 
@@ -29,6 +31,12 @@ public class QuickSort {
      * @return
      */
     private int partition(int[] arr,  int start, int end) {
+        // select a random pivot_index
+
+        Random randomNum = new Random();
+        int pivotIndex = start + randomNum.nextInt(end - start);
+        swap(arr, pivotIndex, end);
+
         int p = arr[end];
         int i = start;
         for (int j = start; j < end; j++) {

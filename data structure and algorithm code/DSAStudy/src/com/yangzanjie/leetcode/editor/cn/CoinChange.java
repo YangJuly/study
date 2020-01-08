@@ -19,8 +19,8 @@ package com.yangzanjie.leetcode.editor.cn;
 public class CoinChange{
     public static void main(String[] args) {
         Solution solution = new CoinChange().new Solution();
-        int[] coins = {2};
-        System.out.println(solution.coinChange(coins, 3));
+        int[] coins = {1};
+        System.out.println(solution.coinChange(coins, 0));
     }
     
 
@@ -28,20 +28,18 @@ public class CoinChange{
 class Solution {
 
     public int coinChange(int[] coins, int amount) {
-        int[] res = new int[amount+1];
-        res[0] = 0;
-        for (int i = 1; i < amount + 1; i++) {
-            int min = Integer.MAX_VALUE;
+        int[] dp = new int[amount+1];
+        for (int i = 1; i < dp.length; i++) {
+            int coinNumMin = Integer.MAX_VALUE;
             for (int j = 0; j < coins.length; j++) {
-                if (i >= coins[j] && res[i-coins[j]] != Integer.MAX_VALUE) {
-                    if (res[i-coins[j]] + 1 < min) {
-                        min = res[i-coins[j]] + 1;
-                    }
+                int sub = i - coins[j];
+                if (sub >= 0 && dp[sub] != Integer.MAX_VALUE) {
+                    coinNumMin = Math.min(coinNumMin, dp[sub] + 1);
                 }
             }
-            res[i] =  min;
+            dp[i] = coinNumMin;
         }
-        return res[amount] == Integer.MAX_VALUE ? -1 : res[amount];
+        return dp[amount] == Integer.MAX_VALUE ? -1 : dp[amount];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

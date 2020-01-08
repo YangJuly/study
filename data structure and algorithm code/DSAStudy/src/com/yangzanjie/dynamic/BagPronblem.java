@@ -94,4 +94,27 @@ public class BagPronblem {
         }
         return maxValue;
     }
+
+    public int knapsack4(int[] weight, int[] values, int n, int w)  {
+        int[] states = new int[w+1];
+        for (int i = 0; i < states.length; i++) {
+            states[i] = -1;
+        }
+        states[0] = 0;
+        if (weight[0] <= w) {
+            states[weight[0]] = values[0];
+        }
+        for (int i = 1; i < n; i++) {
+            for (int j = w - weight[i]; j >= 0; j--) {
+                if (states[j] > 0) {
+                    states[j + weight[i]] = states[j] + values[i];
+                }
+            }
+        }
+        int maxValue = -1;
+        for (int v : states) {
+            if (v > maxValue) maxValue = v;
+        }
+        return maxValue;
+    }
 }

@@ -26,20 +26,20 @@ public class MaximumProductSubarray{
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int maxProduct(int[] nums) {
-        int max = Integer.MIN_VALUE;
-        int imax = 1;
-        int imin = 1;
+        int res = Integer.MIN_VALUE;
+        int max = 1;
+        int min = 1;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] < 0) {
-                int temp = imax;
-                imax = imin;
-                imin = temp;
+                int temp = max;
+                max = min;
+                min = temp;
             }
-            imax = Math.max(imax * nums[i], nums[i]);
-            imin = Math.min(imin * nums[i], nums[i]);
-            max = Math.max(max, imax);
+            max = Math.max(max, max * nums[i]);
+            min = Math.min(min, min * nums[i]);
+            res = Math.max(max, res);
         }
-        return max;
+        return res;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
