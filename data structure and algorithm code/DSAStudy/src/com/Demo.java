@@ -1,5 +1,8 @@
 package com;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author : yangzanjie
  * create at:  2019-12-26  14:59
@@ -7,63 +10,41 @@ package com;
  */
 public class Demo {
 
-    class ListNode {
-        int val;
-        ListNode next;
-    }
+    public int solve(int n, int m, int[] input) {
+        Map<Integer, Integer> map = new HashMap<>();
+        int res = Integer.MAX_VALUE;
+        int start = 0;
+        for (int i = 0; i < n; i++) {
+            if (input[i] == 0) {
+                //清空map 移动start
+                map = new HashMap<>();
+                start = i + 1;
+                continue;
+            }
 
-    //翻转 --  可用递归  -- 此处用了遍历循环
-    public ListNode reverse(ListNode node)  {
-        ListNode pre = null;
-        ListNode cur = node;
-        ListNode next = node.next;
+            //记录当前击中气球
+            if (map.containsKey(input[i])) {
+                map.put(input[i], map.get(input[i]) + 1);
+            } else {
+                map.put(input[i], 1);
+            }
 
-        while (cur != null) {
-            cur.next = pre;
-
-            pre  = cur;
-            cur = next;
-            next = cur.next;
+            //已经命中所有颜色
+            if (map.size() == m) {
+                //移动指针start，获取最小length
+                while (map.get(input[start]) > 1) {
+                    start++;
+                    map.put(input[start], map.get(input[start]) - 1);
+                }
+                res = Math.min(res, i - start + 1);
+            }
         }
-
-        return pre;
-    }
-
-    //add
-    //低位在前
-    public ListNode add(ListNode a, ListNode b) {
-        ListNode  res = new ListNode();
-        ListNode resTmep = res;
-        int count = 0;
-        //优化点
-        while (!(a == null && b == null && count == 0)) {
-            ListNode temp = new ListNode();
-            int sum = 0;
-            sum = sum + (a == null ? 0 : a.val);
-            sum = sum + (b == null ? 0 : b.val);
-            sum += count;
-
-            temp.val =  sum % 10;
-
-            count = sum / 10;
-
-            res.next = temp;
-            res = res.next;
-
-            if (a != null) a  = a.next;
-            if (b != null) b = b.next;
-        }
-        return resTmep.next;
-    }
-
-    //调用框架
-    public void addTwo(ListNode node1, ListNode node2) {
-
+        return res == Integer.MAX_VALUE ? -1 : res;
     }
 
     //test
     public static void main(String[] args) {
-
+        int[] input = {2,5,3,1,3,2,4,1,0,5,4,3};
+        System.out.println(new Demo().solve(12, 5, input));
     }
-
 }

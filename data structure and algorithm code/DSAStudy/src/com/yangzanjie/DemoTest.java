@@ -45,11 +45,8 @@ public class DemoTest {
     }
 
     public static void main(String[] args) {
-//        Solution solution = new DemoTest().new Solution();
-//        System.out.println(solution.findKthNumber(100,4));
-        int i = 0;
-        int a = i++;
-        System.out.println(a);
+        String s = "123";
+        System.out.println(s.substring(1,s.length()));
     }
 
 
